@@ -1,0 +1,18 @@
+General Game Overview:
+
+The game is about progressing trades as a wizard in a world of magic. 
+
+Trades:
+
+1. Fisher
+2. Vulcan
+3. Brew-Master
+4. Botanist
+5. Webster
+6. Sorcerer (combat and killing focused)
+
+Lore:
+
+In this world, each town has an appointed wizard. The wizard of this town has dissapeared, and the town has suffured an attack
+by a dragon. Your job is to step in and help rebuild the town, and become the new appointed wizard. Discover the secret of the 
+missing wizard. 
