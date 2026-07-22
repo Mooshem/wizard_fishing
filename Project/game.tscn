@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ca31q1gtx0k2n"]
 
 [ext_resource type="Texture2D" uid="uid://3sxdd8c5nd7i" path="res://Assets/CharacterSprites/wizardTempIdle.png" id="1_80nbo"]
+[ext_resource type="Script" uid="uid://18xcxiuavnnm" path="res://Scripts/player.gd" id="1_e2o6t"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bmbjt"]
 
@@ -68,20 +69,50 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ym64q"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_5y3oy"]
+normal = Vector2(1, 0)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_bmbjt"]
+normal = Vector2(-1, 0)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_caa0g"]
+normal = Vector2(0, 1)
+
 [node name="World" type="Node2D" unique_id=27854738]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=2007507655]
+[node name="Player" type="CharacterBody2D" parent="." unique_id=2007507655]
+script = ExtResource("1_e2o6t")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=328330765]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=328330765]
 position = Vector2(0, -8)
 shape = SubResource("RectangleShape2D_bmbjt")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=797611346]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=797611346]
 position = Vector2(0, -14)
 sprite_frames = SubResource("SpriteFrames_5y3oy")
 animation = &"Idle"
 autoplay = "Idle"
-frame_progress = 0.35862073
+frame_progress = 0.17963083
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=364125248]
 zoom = Vector2(4, 4)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1813547876]
+
+[node name="Bottom" type="CollisionShape2D" parent="StaticBody2D" unique_id=1846321622]
+position = Vector2(0, 82)
+shape = SubResource("WorldBoundaryShape2D_ym64q")
+
+[node name="Left" type="CollisionShape2D" parent="StaticBody2D" unique_id=1579615994]
+position = Vector2(-143, 4)
+shape = SubResource("WorldBoundaryShape2D_5y3oy")
+
+[node name="Right" type="CollisionShape2D" parent="StaticBody2D" unique_id=73370688]
+position = Vector2(144, 1)
+shape = SubResource("WorldBoundaryShape2D_bmbjt")
+
+[node name="Top" type="CollisionShape2D" parent="StaticBody2D" unique_id=1450444474]
+position = Vector2(-1, -81)
+shape = SubResource("WorldBoundaryShape2D_caa0g")
