@@ -1,40 +1,40 @@
-[gd_scene format=3 uid="uid://ca31q1gtx0k2n"]
+[gd_scene format=3 uid="uid://bptbdr8r3ercp"]
 
-[ext_resource type="Texture2D" uid="uid://3sxdd8c5nd7i" path="res://Assets/CharacterSprites/wizardTempIdle.png" id="1_80nbo"]
-[ext_resource type="Script" uid="uid://18xcxiuavnnm" path="res://Scripts/player.gd" id="1_e2o6t"]
+[ext_resource type="Script" uid="uid://18xcxiuavnnm" path="res://scripts/player.gd" id="1_yqjtg"]
+[ext_resource type="Texture2D" uid="uid://3sxdd8c5nd7i" path="res://assets/CharacterSprites/wizardTempIdle.png" id="2_lnu2h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bmbjt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e2o6t"]
-atlas = ExtResource("1_80nbo")
+atlas = ExtResource("2_lnu2h")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_feb5d"]
-atlas = ExtResource("1_80nbo")
+atlas = ExtResource("2_lnu2h")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fc0e3"]
-atlas = ExtResource("1_80nbo")
+atlas = ExtResource("2_lnu2h")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7jktm"]
-atlas = ExtResource("1_80nbo")
+atlas = ExtResource("2_lnu2h")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ryrav"]
-atlas = ExtResource("1_80nbo")
+atlas = ExtResource("2_lnu2h")
 region = Rect2(128, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eow3j"]
-atlas = ExtResource("1_80nbo")
+atlas = ExtResource("2_lnu2h")
 region = Rect2(160, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j5wjh"]
-atlas = ExtResource("1_80nbo")
+atlas = ExtResource("2_lnu2h")
 region = Rect2(192, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vef74"]
-atlas = ExtResource("1_80nbo")
+atlas = ExtResource("2_lnu2h")
 region = Rect2(224, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5y3oy"]
@@ -83,7 +83,7 @@ normal = Vector2(0, 1)
 [node name="World" type="Node2D" unique_id=27854738]
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=2007507655]
-script = ExtResource("1_e2o6t")
+script = ExtResource("1_yqjtg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=328330765]
 position = Vector2(0, -8)
@@ -94,7 +94,7 @@ position = Vector2(0, -14)
 sprite_frames = SubResource("SpriteFrames_5y3oy")
 animation = &"Idle"
 autoplay = "Idle"
-frame_progress = 0.17963083
+frame_progress = 0.937363
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=364125248]
 zoom = Vector2(4, 4)
