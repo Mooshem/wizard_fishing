@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Wizard_Fishing"
-run/main_scene="res://scenes/player.tscn"
+run/main_scene="res://scenes/game.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [display]

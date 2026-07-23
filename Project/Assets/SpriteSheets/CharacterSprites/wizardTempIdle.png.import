@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3sxdd8c5nd7i"
-path="res://.godot/imported/wizardTempIdle.png-1d8788279ed3e60398056dc9157b6d95.ctex"
+path="res://.godot/imported/wizardTempIdle.png-bac09ee3c99337c70ed3b58a2eef95c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/CharacterSprites/wizardTempIdle.png"
-dest_files=["res://.godot/imported/wizardTempIdle.png-1d8788279ed3e60398056dc9157b6d95.ctex"]
+source_file="res://assets/SpriteSheets/CharacterSprites/wizardTempIdle.png"
+dest_files=["res://.godot/imported/wizardTempIdle.png-bac09ee3c99337c70ed3b58a2eef95c1.ctex"]
 
 [params]
 

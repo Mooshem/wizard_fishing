@@ -1,16 +1,19 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784783140
-player.tscn::PackedScene::8900341510759208418::1784780905::0::1::::<><><>0<>0<><>::uid://18xcxiuavnnm::::res://scripts/player.gd<>uid://3sxdd8c5nd7i::::res://assets/CharacterSprites/wizardTempIdle.png
-::res://assets/::1784781687
+::res://::1784784814
+::res://assets/::1784784172
 istockphoto-505623570-612x612.png::CompressedTexture2D::4630074032141994130::1784672788::1784672788::1::::<><><>0<>0<>60b2d450ed430379f777a42f0cfe45ff<>res://.godot/imported/istockphoto-505623570-612x612.png-80c3332de701db6cc8c0b2a416680bf5.ctex::
 pixil-frame-0.png::CompressedTexture2D::9147540651687423174::1784676891::1784676891::1::::<><><>0<>0<>5351b5110771b6dfd00d6df229f0b503<>res://.godot/imported/pixil-frame-0.png-0a2d8a803221ea592f483da0e0c43a31.ctex::
-::res://assets/CharacterSprites/::1784689325
-wizardTempIdle.png::CompressedTexture2D::2003848478333398684::1784688968::1784689325::1::::<><><>0<>0<>a264e458757b88a30b8bb89d8f43aaf3<>res://.godot/imported/wizardTempIdle.png-1d8788279ed3e60398056dc9157b6d95.ctex::
-::res://assets/tilesets/::1784782136
+::res://assets/SpriteSheets/::1784784200
+::res://assets/SpriteSheets/CharacterSprites/::1784784172
+wizardTempIdle.png::CompressedTexture2D::2003848478333398684::1784688968::1784784172::1::::<><><>0<>0<>284e99d32e12afdc596b49120fbbe46c<>res://.godot/imported/wizardTempIdle.png-bac09ee3c99337c70ed3b58a2eef95c1.ctex::
+::res://assets/SpriteSheets/shrubs/::1784784514
+bush-pixilart.png::CompressedTexture2D::4891831416117493791::1784784207::1784784207::1::::<><><>0<>0<>1be78078e34c8b22c9d3f6cb4ea18c31<>res://.godot/imported/bush-pixilart.png-b1df4ab5bfd9c1f430e4f912c9016273.ctex::
+pixil-frame-0 (1).png::CompressedTexture2D::7531179764267095665::1784784513::1784784514::1::::<><><>0<>0<>f74ecca755d07f7641e1b90224c9b51e<>res://.godot/imported/pixil-frame-0 (1).png-c03b2f009f89756fdb52729fd0ca31c0.ctex::
+::res://assets/tilesets/::1784783346
 tilesetfree (1).png::CompressedTexture2D::105876425979943563::1784782136::1784782136::1::::<><><>0<>0<>a930361c2f28b023a9f3c7a510cf6828<>res://.godot/imported/tilesetfree (1).png-40a77785edbb1a85bcb7696a0f842ad6.ctex::
-tilesetfree.png::CompressedTexture2D::6258277609460277555::1784781693::1784781694::1::::<><><>0<>0<>90f640388f1a3ca86f4400ee93595eca<>res://.godot/imported/tilesetfree.png-8e4472b3ea21ba4eb684e69c347b98ab.ctex::
-::res://scenes/::1784781253
-game.tscn::PackedScene::3478543534650698455::1784780737::0::1::::<><><>0<>0<><>::uid://18xcxiuavnnm::::res://scripts/player.gd<>uid://3sxdd8c5nd7i::::res://assets/CharacterSprites/wizardTempIdle.png
-player.tscn::PackedScene::4832252534785216355::1784781253::0::1::::<><><>0<>0<><>::uid://3sxdd8c5nd7i::::res://assets/CharacterSprites/wizardTempIdle.png<>uid://18xcxiuavnnm::::res://scripts/player.gd
+::res://scenes/::1784784814
+bush.tscn::PackedScene::3991200589101671681::1784784754::0::1::::<><><>0<>0<><>::uid://dfkfovsm2kahd::::res://assets/SpriteSheets/shrubs/pixil-frame-0 (1).png
+game.tscn::PackedScene::3478543534650698455::1784784172::0::1::::<><><>0<>0<><>::uid://18xcxiuavnnm::::res://scripts/player.gd<>uid://3sxdd8c5nd7i::::res://assets/SpriteSheets/CharacterSprites/wizardTempIdle.png
+player.tscn::PackedScene::8900341510759208418::1784784172::0::1::::<><><>0<>0<><>::uid://18xcxiuavnnm::::res://scripts/player.gd<>uid://3sxdd8c5nd7i::::res://assets/SpriteSheets/CharacterSprites/wizardTempIdle.png
 ::res://scripts/::1784781253
 player.gd::GDScript::1894435684199291042::1784781253::0::1::::<>CharacterBody2D<><>0<>0<><>::
